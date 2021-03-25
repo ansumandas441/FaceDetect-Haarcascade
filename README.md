@@ -4,7 +4,9 @@ You need to compile opencv4 to run these files
 
 
 For face_detect.cppxample usage in commandline:
+
 	g++ face_detect2.cpp -o output `pkg-config --cflags --libs opencv4`
+	
 	./output face2.png haarcascade_frontalface_default1.xml
 	
 For face_detect.py usage in commandline usage:
